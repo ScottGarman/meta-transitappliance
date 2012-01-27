@@ -1,0 +1,7 @@
+This is Yocto Project layer used by the Transit Appliance project.
+
+A Yocto layer includes recipes for packages and images that are not part of the default metadata.
+
+This layer uses Yocto 1.1 (aka Poky "Edison") as its base.
+
+More information about the Transit Appliance project can be found at http://transitappliance.org.

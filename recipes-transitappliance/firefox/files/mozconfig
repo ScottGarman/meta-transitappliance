@@ -3,4 +3,12 @@
 # We don't care about Necko WiFi scanning:
 ac_add_options --disable-necko-wifi
 
+# Need alsa for Ogg, Wave or WebM decoding on Linux
+ac_add_options --disable-ogg
+ac_add_options --disable-wave
+ac_add_options --disable-webm
+
+# If crash reporter support is needed, curl is a DEPENDS
+ac_add_options --disable-crashreporter
+
 ac_add_options --disable-tests

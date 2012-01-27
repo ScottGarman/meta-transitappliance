@@ -4,7 +4,7 @@ HOMEPAGE = "http://www.firefox.com"
 LICENSE = "MPLv1.1 & GPLv2.0 & GPLv2.1"
 LIC_FILES_CHKSUM = "file://toolkit/content/license.html;md5=f918bd029113092723060a9aefffa7c5"
 
-DEPENDS = "libidl libnotify libxt yasm-native"
+DEPENDS = "libidl libnotify libxt yasm-native virtual/libgl"
 PR = "r0"
 
 SRC_URI = "http://ftp.mozilla.org/pub/firefox/releases/${PV}/source/firefox-${PV}.source.tar.bz2 \

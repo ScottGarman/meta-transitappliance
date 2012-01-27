@@ -1,0 +1,6 @@
+. $topsrcdir/browser/config/mozconfig
+
+# We don't care about Necko WiFi scanning:
+ac_add_options --disable-necko-wifi
+
+ac_add_options --disable-tests
